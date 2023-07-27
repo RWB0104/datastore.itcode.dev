@@ -1,0 +1,167 @@
+[
+	{
+		"category": "language",
+		"icon": "https://datastore.itcode.dev/image/itcode/java.png",
+		"name": "JAVA"
+	},
+	{
+		"category": "language",
+		"icon": "https://datastore.itcode.dev/image/itcode/c%23.png",
+		"name": "C#"
+	},
+	{
+		"category": "language",
+		"icon": "https://datastore.itcode.dev/image/itcode/javascript.png",
+		"name": "JavaScript"
+	},
+	{
+		"category": "language",
+		"icon": "https://datastore.itcode.dev/image/itcode/typescript.png",
+		"name": "TypeScript"
+	},
+	{
+		"category": "language",
+		"icon": "https://datastore.itcode.dev/image/itcode/html.png",
+		"name": "HTML"
+	},
+	{
+		"category": "language",
+		"icon": "https://datastore.itcode.dev/image/itcode/css.png",
+		"name": "CSS"
+	},
+	{
+		"category": "language",
+		"icon": "https://datastore.itcode.dev/image/itcode/scss.png",
+		"name": "SCSS"
+	},
+	{
+		"category": "language",
+		"icon": "https://datastore.itcode.dev/image/itcode/visualbasic.png",
+		"name": "Visual Basic"
+	},
+	{
+		"category": "framework",
+		"icon": "https://datastore.itcode.dev/image/itcode/springboot.png",
+		"name": "Spring Boot"
+	},
+	{
+		"category": "framework",
+		"icon": "https://datastore.itcode.dev/image/itcode/nodejs.png",
+		"name": "Node.js"
+	},
+	{
+		"category": "framework",
+		"icon": "https://datastore.itcode.dev/image/itcode/react.png",
+		"name": "React"
+	},
+	{
+		"category": "framework",
+		"icon": "https://datastore.itcode.dev/image/itcode/nextjs.png",
+		"name": "Next.js"
+	},
+	{
+		"category": "framework",
+		"icon": "https://datastore.itcode.dev/image/itcode/gatsbyjs.png",
+		"name": "Gatsby.js"
+	},
+	{
+		"category": "framework",
+		"icon": "https://datastore.itcode.dev/image/itcode/electron.png",
+		"name": "Electron"
+	},
+	{
+		"category": "framework",
+		"icon": "https://datastore.itcode.dev/image/itcode/jsp.png",
+		"name": "JSP"
+	},
+	{
+		"category": "framework",
+		"icon": "https://datastore.itcode.dev/image/itcode/materialui.png",
+		"name": "Material UI"
+	},
+	{
+		"category": "framework",
+		"icon": "https://datastore.itcode.dev/image/itcode/semanticui.png",
+		"name": "Semantic UI"
+	},
+	{
+		"category": "language",
+		"icon": "https://datastore.itcode.dev/image/itcode/android.png",
+		"name": "Android (JAVA)"
+	},
+	{
+		"category": "server",
+		"icon": "https://datastore.itcode.dev/image/itcode/raspberrypi.png",
+		"name": "Raspberry Pi"
+	},
+	{
+		"category": "server",
+		"icon": "https://datastore.itcode.dev/image/itcode/redhat.png",
+		"name": "RHEL"
+	},
+	{
+		"category": "server",
+		"icon": "https://datastore.itcode.dev/image/itcode/centos.png",
+		"name": "CentOS"
+	},
+	{
+		"category": "server",
+		"icon": "https://datastore.itcode.dev/image/itcode/ubuntu.png",
+		"name": "Ubuntu"
+	},
+	{
+		"category": "server",
+		"icon": "https://datastore.itcode.dev/image/itcode/aws.png",
+		"name": "AWS"
+	},
+	{
+		"category": "database",
+		"icon": "https://datastore.itcode.dev/image/itcode/oracle.png",
+		"name": "Oracle Database"
+	},
+	{
+		"category": "database",
+		"icon": "https://datastore.itcode.dev/image/itcode/mysql.png",
+		"name": "MySQL"
+	},
+	{
+		"category": "database",
+		"icon": "https://datastore.itcode.dev/image/itcode/mariadb.png",
+		"name": "MariaDB"
+	},
+	{
+		"category": "etc",
+		"icon": "https://datastore.itcode.dev/image/itcode/gradle.png",
+		"name": "Gradle"
+	},
+	{
+		"category": "etc",
+		"icon": "https://datastore.itcode.dev/image/itcode/maven.png",
+		"name": "Maven"
+	},
+	{
+		"category": "etc",
+		"icon": "https://datastore.itcode.dev/image/itcode/tomcat.png",
+		"name": "Tomcat"
+	},
+	{
+		"category": "etc",
+		"icon": "https://datastore.itcode.dev/image/itcode/nginx.png",
+		"name": "Nginx"
+	},
+	{
+		"category": "etc",
+		"icon": "https://datastore.itcode.dev/image/itcode/git.png",
+		"name": "Git"
+	},
+	{
+		"category": "etc",
+		"icon": "https://datastore.itcode.dev/image/itcode/github.png",
+		"name": "GitHub"
+	},
+	{
+		"category": "etc",
+		"icon": "https://datastore.itcode.dev/image/itcode/svn.png",
+		"name": "SVN"
+	}
+]
