@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'docs/itcode/video/*.mp4'
+  workflow_dispatch:
 
 jobs:
   get_file_list:
