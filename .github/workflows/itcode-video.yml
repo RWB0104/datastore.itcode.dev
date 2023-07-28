@@ -10,16 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Save File List
+      - name: Get File List
         run: |
-          file_list=$(find docs/itcode/video -type f -name "*.mp4" -exec basename {} \; | jq -R . | jq -s .)
+          file_list=$(find docs/itcode/video -type f -name "*.mp4" -exec basename {} \; | sed 's/^/https:\/\/datasource.itcode.dev\/itcode\/video\//' | jq -R . | jq -s .)
           echo $file_list > docs/itcode/video/index.json
         shell: bash
         
-      - name: Git push
+      - name: Git commit
         run: |
           git add docs/itcode/video/index.json
           git config --global user.email "psj2716@mensakorea.org"
