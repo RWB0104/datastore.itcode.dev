@@ -1,0 +1,32 @@
+name: itcode video index build
+on:
+  push:
+    paths:
+      - 'docs/itcode/video/*.mp4'
+
+jobs:
+  get_file_list:
+    runs-on: ubuntu-latest  # 실행 환경을 설정합니다. Ubuntu 환경을 사용합니다.
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # 저장소 코드를 체크아웃하는 액션을 사용합니다.
+
+      - name: Get File List
+        run: |
+          file_list=$(find docs/itcode/video -type f -name "*.mp4" -exec basename {} \; | jq -R . | jq -s .)
+          echo $file_list > index.json  # JSON 파일로 저장합니다.
+        shell: bash
+
+      - name: Show File List
+        run: |
+          cat file_list.json  # 저장된 JSON 파일을 확인합니다.
+        shell: bash
+        
+      - name: Git commit
+        run: |
+          git add docs/itcode/video/index.json
+          git config --global user.email "psj2716@mensakorea.org"
+          git config --global user.name "RWB0104"
+          git commit -m "📝 [UPDATE] 비디오 인덱스 갱신"
+          git push
