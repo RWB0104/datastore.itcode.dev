@@ -1,0 +1,11 @@
+{
+  "name": "datastore.itcode.dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "datastore.itcode.dev",
+  "author": "RWB0104 <psj2716@mensakorea.org>",
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
