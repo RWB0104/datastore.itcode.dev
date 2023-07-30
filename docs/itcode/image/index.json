@@ -1,167 +1,167 @@
 [
 	{
 		"category": "language",
-		"icon": "https://datastore.itcode.dev/image/itcode/java.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/java.png",
 		"name": "JAVA"
 	},
 	{
 		"category": "language",
-		"icon": "https://datastore.itcode.dev/image/itcode/c%23.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/c%23.png",
 		"name": "C#"
 	},
 	{
 		"category": "language",
-		"icon": "https://datastore.itcode.dev/image/itcode/javascript.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/javascript.png",
 		"name": "JavaScript"
 	},
 	{
 		"category": "language",
-		"icon": "https://datastore.itcode.dev/image/itcode/typescript.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/typescript.png",
 		"name": "TypeScript"
 	},
 	{
 		"category": "language",
-		"icon": "https://datastore.itcode.dev/image/itcode/html.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/html.png",
 		"name": "HTML"
 	},
 	{
 		"category": "language",
-		"icon": "https://datastore.itcode.dev/image/itcode/css.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/css.png",
 		"name": "CSS"
 	},
 	{
 		"category": "language",
-		"icon": "https://datastore.itcode.dev/image/itcode/scss.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/scss.png",
 		"name": "SCSS"
 	},
 	{
 		"category": "language",
-		"icon": "https://datastore.itcode.dev/image/itcode/visualbasic.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/visualbasic.png",
 		"name": "Visual Basic"
 	},
 	{
 		"category": "framework",
-		"icon": "https://datastore.itcode.dev/image/itcode/springboot.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/springboot.png",
 		"name": "Spring Boot"
 	},
 	{
 		"category": "framework",
-		"icon": "https://datastore.itcode.dev/image/itcode/nodejs.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/nodejs.png",
 		"name": "Node.js"
 	},
 	{
 		"category": "framework",
-		"icon": "https://datastore.itcode.dev/image/itcode/react.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/react.png",
 		"name": "React"
 	},
 	{
 		"category": "framework",
-		"icon": "https://datastore.itcode.dev/image/itcode/nextjs.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/nextjs.png",
 		"name": "Next.js"
 	},
 	{
 		"category": "framework",
-		"icon": "https://datastore.itcode.dev/image/itcode/gatsbyjs.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/gatsbyjs.png",
 		"name": "Gatsby.js"
 	},
 	{
 		"category": "framework",
-		"icon": "https://datastore.itcode.dev/image/itcode/electron.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/electron.png",
 		"name": "Electron"
 	},
 	{
 		"category": "framework",
-		"icon": "https://datastore.itcode.dev/image/itcode/jsp.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/jsp.png",
 		"name": "JSP"
 	},
 	{
 		"category": "framework",
-		"icon": "https://datastore.itcode.dev/image/itcode/materialui.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/materialui.png",
 		"name": "Material UI"
 	},
 	{
 		"category": "framework",
-		"icon": "https://datastore.itcode.dev/image/itcode/semanticui.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/semanticui.png",
 		"name": "Semantic UI"
 	},
 	{
 		"category": "language",
-		"icon": "https://datastore.itcode.dev/image/itcode/android.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/android.png",
 		"name": "Android (JAVA)"
 	},
 	{
 		"category": "server",
-		"icon": "https://datastore.itcode.dev/image/itcode/raspberrypi.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/raspberrypi.png",
 		"name": "Raspberry Pi"
 	},
 	{
 		"category": "server",
-		"icon": "https://datastore.itcode.dev/image/itcode/redhat.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/redhat.png",
 		"name": "RHEL"
 	},
 	{
 		"category": "server",
-		"icon": "https://datastore.itcode.dev/image/itcode/centos.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/centos.png",
 		"name": "CentOS"
 	},
 	{
 		"category": "server",
-		"icon": "https://datastore.itcode.dev/image/itcode/ubuntu.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/ubuntu.png",
 		"name": "Ubuntu"
 	},
 	{
 		"category": "server",
-		"icon": "https://datastore.itcode.dev/image/itcode/aws.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/aws.png",
 		"name": "AWS"
 	},
 	{
 		"category": "database",
-		"icon": "https://datastore.itcode.dev/image/itcode/oracle.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/oracle.png",
 		"name": "Oracle Database"
 	},
 	{
 		"category": "database",
-		"icon": "https://datastore.itcode.dev/image/itcode/mysql.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/mysql.png",
 		"name": "MySQL"
 	},
 	{
 		"category": "database",
-		"icon": "https://datastore.itcode.dev/image/itcode/mariadb.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/mariadb.png",
 		"name": "MariaDB"
 	},
 	{
 		"category": "etc",
-		"icon": "https://datastore.itcode.dev/image/itcode/gradle.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/gradle.png",
 		"name": "Gradle"
 	},
 	{
 		"category": "etc",
-		"icon": "https://datastore.itcode.dev/image/itcode/maven.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/maven.png",
 		"name": "Maven"
 	},
 	{
 		"category": "etc",
-		"icon": "https://datastore.itcode.dev/image/itcode/tomcat.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/tomcat.png",
 		"name": "Tomcat"
 	},
 	{
 		"category": "etc",
-		"icon": "https://datastore.itcode.dev/image/itcode/nginx.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/nginx.png",
 		"name": "Nginx"
 	},
 	{
 		"category": "etc",
-		"icon": "https://datastore.itcode.dev/image/itcode/git.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/git.png",
 		"name": "Git"
 	},
 	{
 		"category": "etc",
-		"icon": "https://datastore.itcode.dev/image/itcode/github.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/github.png",
 		"name": "GitHub"
 	},
 	{
 		"category": "etc",
-		"icon": "https://datastore.itcode.dev/image/itcode/svn.png",
+		"icon": "https://datastore.itcode.dev/itcode/image/svn.png",
 		"name": "SVN"
 	}
 ]
