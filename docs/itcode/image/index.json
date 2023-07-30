@@ -163,5 +163,20 @@
 		"category": "etc",
 		"icon": "https://datastore.itcode.dev/itcode/image/svn.png",
 		"name": "SVN"
+	},
+	{
+		"category": "etc",
+		"icon": "https://datastore.itcode.dev/itcode/image/geoserver.png",
+		"name": "GeoServer"
+	},
+	{
+		"category": "etc",
+		"icon": "https://datastore.itcode.dev/itcode/image/openlayers.png",
+		"name": "OpenLayers"
+	},
+	{
+		"category": "etc",
+		"icon": "https://datastore.itcode.dev/itcode/image/intramap.png",
+		"name": "IntraMap"
 	}
 ]
