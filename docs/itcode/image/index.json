@@ -166,6 +166,11 @@
 	},
 	{
 		"category": "etc",
+		"icon": "https://datastore.itcode.dev/itcode/image/npm.png",
+		"name": "NPM"
+	},
+	{
+		"category": "etc",
 		"icon": "https://datastore.itcode.dev/itcode/image/geoserver.png",
 		"name": "GeoServer"
 	},
