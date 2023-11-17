@@ -15,7 +15,7 @@ jobs:
 
       - name: Get File List
         run: |
-          file_list=$(find docs/itcode/video -type f -name "*.mp4" -exec basename {} \; | sed 's/^/https:\/\/datastore.itcode.dev\/itcode\/video\//' | sort -V | jq -R . | jq -s .)
+          file_list=$(find docs/itcode/video -type f -name "*.mp4" -o -name "*.webm" -exec basename {} \; | sed 's/^/https:\/\/datastore.itcode.dev\/itcode\/video\//' | sort -V | jq -R . | jq -s .)
           echo $file_list > docs/itcode/video/index.json
         shell: bash
 
