@@ -1,0 +1,37 @@
+{
+	"device": [
+		{
+			"image": "./assets/model_01.png",
+			"storage": [
+				"128GB",
+				"256GB",
+				"512GB"
+			]
+		},
+		{
+			"image": "./assets/model_02.png",
+			"storage": [
+				"128GB",
+				"256GB",
+				"512GB"
+			]
+		},
+		{
+			"image": "./assets/model_03.png",
+			"storage": [
+				"128GB",
+				"256GB",
+				"512GB",
+				"1TB"
+			]
+		},
+		{
+			"image": "./assets/model_04.png",
+			"storage": [
+				"256GB",
+				"512GB",
+				"1TB"
+			]
+		}
+	]
+}

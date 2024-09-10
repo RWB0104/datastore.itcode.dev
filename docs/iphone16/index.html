@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>:: 아이폰15 시리즈 요금제 표 페이지(일반)</title>
+
+	<link rel="stylesheet" media="screen" href="/index.css">
+	<link rel="stylesheet" media="screen" href="/all.css">
+
+
+	<script src="/jquery-2.1.1.js"></script>
+
+	<script src="/index.js"></script>
+</head>
+
+<body>
+
+	<body class="bg-type-cash">
+		<button onclick="topFunction()" id="btnToTop" style="display: none;"><i class="fa fa-chevron-up"></i></button>
+		<div class="container-fluid">
+			<div class="top-row">
+				<img class="img-fluid" src="./assets/top.png">
+			</div>
+
+			<ul class="nav nav-tabs nav-telecom nav-fill">
+				<li class="nav-item">
+					<a class="nav-link active show" data-toggle="tab" href="#tab-skt">
+						<img id="imgTabSkt" src="./assets/tab_skt.png">
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#tab-kt">
+						<img id="imgTabKt" src="./assets/tab_kt.png">
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#tab-lgu">
+						<img id="imgTabLgu" src="./assets/tab_lgu.png">
+					</a>
+				</li>
+			</ul>
+
+			<div class="tab-content">
+				<!-- ======= SKT 모델 선택 영역 ======= -->
+				<div class="tab-pane active show" id="tab-skt">
+					<ul class="nav nav-tabs nav-model nav-fill">
+						<!-- SKT 모델 리스트 -->
+					</ul>
+
+					<!-- SKT 신청서 버튼 상단 이미지 -->
+					<div class="img-info">
+						<img class="img-fluid" src="./assets/divider.png">
+					</div>
+					<a class="a-link-app a-link-app-skt" href="https://tgateapp.com/main/application.php?code=1029&amp;site=99" target="_blank" style="">
+						<button class="btn btn-app-link my-3">
+							<img src="./assets/app_link_skt.png">
+						</button>
+					</a>
+
+					<!-- ======= SKT 용량 선택 및 요금제 영역 ======= -->
+					<div class="tab-content capacity-tab-area">
+						<!-- SKT 요금제 리스트 -->
+					</div>
+
+					<div class="img-info p-3">
+						<img class="img-fluid" src="./assets/change.png">
+					</div>
+				</div>
+
+				<!-- ======= KT 모델 선택 영역 ======= -->
+				<div class="tab-pane" id="tab-kt">
+					<ul class="nav nav-tabs nav-model nav-fill">
+						<!-- KT 모델 리스트 -->
+					</ul>
+
+					<!-- KT 신청서 버튼 상단 이미지 -->
+					<div class="img-info">
+						<img class="img-fluid" src="./assets/divider.png">
+					</div>
+
+					<a class="a-link-app a-link-app-kt" href="https://tgateapp.com/main/application.php?code=1031&amp;site=99" target="_blank" style="">
+						<button class="btn btn-app-link my-3">
+							<img src="./assets/app_link_kt.png">
+						</button>
+					</a>
+
+					<!-- ======= KT 용량 선택 및 요금제 영역 ======= -->
+					<div class="tab-content capacity-tab-area">
+						<!-- KT 요금제 리스트 -->
+					</div>
+
+					<div class="img-info p-3">
+						<img class="img-fluid" src="./assets/change.png">
+					</div>
+				</div>
+
+				<!-- ======= LGU+ 모델 선택 영역 ======= -->
+				<div class="tab-pane" id="tab-lgu">
+					<ul class="nav nav-tabs nav-model nav-fill">
+						<!-- LGU+ 모델 리스트 -->
+					</ul>
+
+					<!-- LGU+ 신청서 버튼 상단 이미지 -->
+					<div class="img-info">
+						<img class="img-fluid" src="./assets/divider.png">
+					</div>
+					<a class="a-link-app a-link-app-lgu" href="https://tgateapp.com/main/application.php?code=1030&amp;site=99" target="_blank" style="">
+						<button class="btn btn-app-link my-3">
+							<img src="./assets/app_link_lgu.png">
+						</button>
+					</a>
+
+					<!-- ======= LGU+ 요금제 표 영역 ======= -->
+					<div class="tab-content capacity-tab-area">
+						<!-- LGU+ 요금제 리스트 -->
+					</div>
+
+					<div class="img-info p-3">
+						<img class="img-fluid" src="./assets/change.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			var topOffset;
+
+			var getParam = function(key){
+				var _parammap = {};
+				document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+					function decode(s) {
+						return decodeURIComponent(s.split("+").join(" "));
+					}
+					_parammap[decode(arguments[1])] = decode(arguments[2]);
+				});
+				return _parammap[key];
+			};
+
+			$(function() {
+				$('.page-type').on('click', function() {
+					$('.page-type').removeClass('active');
+					$(this).addClass('active');
+
+					var type = $(this).data('type');
+					$('body').removeClass();
+					if(type == 'cash') {
+						$('body').addClass('bg-type-cash');
+						$('.img-banner-skt').prop('src', 'img/common/banner_skt_cash.png');
+						$('.img-banner-kt').prop('src', 'img/common/banner_kt_cash.png');
+						$('.img-banner-lgu').prop('src', 'img/common/banner_lgu_cash.png');
+					}else{
+						$('body').addClass('bg-type-gift');
+						$('.img-banner-skt').prop('src', 'img/common/banner_skt_gift.png');
+						$('.img-banner-kt').prop('src', 'img/common/banner_kt_gift.png');
+						$('.img-banner-lgu').prop('src', 'img/common/banner_lgu_gift.png');
+					}
+				})
+
+				var code = getParam('site');
+				if(code) {
+					$('.a-link-app').show();
+					$('.a-link-app-skt').prop('href', 'https://tgateapp.com/main/application.php?code=1029&site=' + code);
+					$('.a-link-app-kt').prop('href', 'https://tgateapp.com/main/application.php?code=1031&site=' + code);
+					$('.a-link-app-lgu').prop('href', 'https://tgateapp.com/main/application.php?code=1030&site=' + code);
+				}
+
+				topOffset = $( '.container-fluid' ).offset();
+				window.onscroll = function() {scrollFunction()};
+			});
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					$("#btnToTop").fadeIn("slow");
+				} else {
+					$("#btnToTop").fadeOut("slow");
+				}
+			}
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
+
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+	</body>
+</body>
+
+</html>
